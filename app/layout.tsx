@@ -47,7 +47,7 @@ export default function RootLayout({
         <main>{children}</main>
         <footer className="flex flex-col items-center justify-center gap-4 my-12 text-xs text-storm-dust-600">
           <Logo className="h-8" />
-          <p>Copyright &copy; 2023 - Travente Ewa Markiewicz</p>
+          <p>&copy; Travente Ewa Markiewicz 2023</p>
         </footer>
       </body>
     </html>
