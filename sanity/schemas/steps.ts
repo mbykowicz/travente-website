@@ -25,7 +25,7 @@ export const steps: SchemaTypeDefinition = {
             {
               name: 'description',
               title: 'Description',
-              type: 'string',
+              type: 'text',
               validation: (rule) => rule.required(),
             },
           ],

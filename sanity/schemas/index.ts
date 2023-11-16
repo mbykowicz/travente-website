@@ -6,6 +6,11 @@ import { express } from './express'
 import { contact } from './contact'
 import { about } from './about'
 
-export const schemaTypes: { types: SchemaTypeDefinition[] } = {
-  types: [hero, steps, offer, express, contact, about],
-}
+export const schemaTypes: SchemaTypeDefinition[] = [
+  hero,
+  steps,
+  offer,
+  express,
+  contact,
+  about,
+]

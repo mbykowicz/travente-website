@@ -17,5 +17,10 @@ export const contact: SchemaTypeDefinition = {
       type: 'number',
       validation: (rule) => rule.required(),
     },
+    {
+      name: 'instagram',
+      title: 'Instagram',
+      type: 'string',
+    },
   ],
 }

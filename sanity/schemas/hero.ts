@@ -8,7 +8,13 @@ export const hero: SchemaTypeDefinition = {
     {
       name: 'headline',
       title: 'Headline',
-      type: 'string',
+      type: 'text',
+      validation: (rule) => rule.required(),
+    },
+    {
+      name: 'description',
+      title: 'Description',
+      type: 'text',
       validation: (rule) => rule.required(),
     },
     {
