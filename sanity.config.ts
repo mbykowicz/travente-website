@@ -11,7 +11,7 @@ import { apiVersion, dataset, projectId } from './sanity/env'
 import { schemaTypes } from './sanity/schemas'
 
 const singletonActions = new Set(['publish', 'discardChanges', 'restore'])
-const singletonTypes = new Set(['hero', 'steps', 'offer', 'about', 'contact'])
+const singletonTypes = new Set(['hero', 'offer', 'about', 'contact'])
 
 export default defineConfig({
   basePath: '/studio',
