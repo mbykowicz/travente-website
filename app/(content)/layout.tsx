@@ -1,4 +1,4 @@
-import './globals.css'
+import '@/app/globals.css'
 import {
   IBM_Plex_Sans as FontSans,
   Spectral as FontSerif,
