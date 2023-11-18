@@ -5,8 +5,8 @@ import {
   Passions_Conflict as FontScript,
 } from 'next/font/google'
 import type { Metadata } from 'next'
-import Header from '@/components/Header'
-import Logo from '@/components/Logo'
+import Header from '@/components/elements/Header'
+import Footer from '@/components/elements/Footer'
 
 export const fontSans = FontSans({
   weight: ['400', '500', '700'],
@@ -45,10 +45,7 @@ export default function RootLayout({
       <body>
         <Header />
         <main>{children}</main>
-        <footer className="flex flex-col items-center justify-center gap-4 my-12 text-xs text-storm-dust-600">
-          <Logo className="h-8" />
-          <p>&copy; Travente Ewa Markiewicz 2023</p>
-        </footer>
+        <Footer />
       </body>
     </html>
   )

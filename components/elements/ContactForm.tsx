@@ -15,7 +15,7 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from './ui/form'
+} from '../ui/form'
 
 import axios from 'axios'
 
@@ -32,7 +32,7 @@ import {
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from './Select'
+} from '../Select'
 import Link from 'next/link'
 import { InstagramIcon, MailIcon, SmartphoneIcon } from 'lucide-react'
 

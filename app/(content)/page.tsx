@@ -1,7 +1,7 @@
-import Hero from '@/components/Hero'
+import Hero from '@/components/elements/Hero'
 import Container from '@/components/Container'
-import StepList from '@/components/StepList'
-import ContactForm from '@/components/ContactForm'
+import StepList from '@/components/elements/StepList'
+import ContactForm from '@/components/elements/ContactForm'
 import Section from '@/components/Section'
 import { getHeroData, getStepsData } from '@/sanity/queries'
 
