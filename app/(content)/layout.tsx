@@ -5,8 +5,8 @@ import {
   Passions_Conflict as FontScript,
 } from 'next/font/google'
 import type { Metadata } from 'next'
-import Header from '@/components/header'
-import Logo from '@/components/logo'
+import Header from '@/components/Header'
+import Logo from '@/components/Logo'
 
 export const fontSans = FontSans({
   weight: ['400', '500', '700'],

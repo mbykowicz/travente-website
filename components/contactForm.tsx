@@ -4,9 +4,9 @@ import { FormEvent, useRef, useState } from 'react'
 
 import { XMarkIcon } from '@heroicons/react/20/solid'
 
-import Button from '@/components/button'
-import Input from '@/components/input'
-import Textarea from '@/components/textarea'
+import Button from '@/components/Button'
+import Input from '@/components/Input'
+import Textarea from '@/components/Textarea'
 import {
   Form,
   FormControl,
@@ -32,7 +32,7 @@ import {
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from './select'
+} from './Select'
 import Link from 'next/link'
 import { InstagramIcon, MailIcon, SmartphoneIcon } from 'lucide-react'
 

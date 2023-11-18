@@ -1,5 +1,5 @@
-import Container from './container'
-import Logo from './logo'
+import Container from './Container'
+import Logo from './Logo'
 
 export default function Header() {
   return (

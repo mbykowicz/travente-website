@@ -1,4 +1,4 @@
-import ListNumber from './listNumber'
+import ListNumber from './ListNumber'
 export interface Step {
   title: string
   description: string

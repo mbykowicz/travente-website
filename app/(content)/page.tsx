@@ -1,9 +1,8 @@
 import Hero from '@/components/Hero'
-import Container from '@/components/container'
-import StepList from '@/components/stepList'
-import ContactForm from '@/components/contactForm'
-import Section from '@/components/section'
-import { client } from '@/sanity/lib/client'
+import Container from '@/components/Container'
+import StepList from '@/components/StepList'
+import ContactForm from '@/components/ContactForm'
+import Section from '@/components/Section'
 import { getHeroData, getStepsData } from '@/sanity/queries'
 
 export default async function Home() {
