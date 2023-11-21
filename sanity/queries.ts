@@ -19,3 +19,11 @@ export async function getStepsData() {
       _key
     }`)
 }
+
+export async function getAboutMeData() {
+  return await client.fetch(groq`
+  *[_type=='about'][0]{
+    content,
+    signature
+  }`)
+}

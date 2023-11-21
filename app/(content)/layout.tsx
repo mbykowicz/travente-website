@@ -8,20 +8,20 @@ import type { Metadata } from 'next'
 import Header from '@/components/elements/Header'
 import Footer from '@/components/elements/Footer'
 
-export const fontSans = FontSans({
+const fontSans = FontSans({
   weight: ['400', '500', '700'],
   subsets: ['latin'],
   variable: '--font-sans',
 })
 
-export const fontSerif = FontSerif({
+const fontSerif = FontSerif({
   weight: ['400', '700'],
   style: ['italic'],
   subsets: ['latin'],
   variable: '--font-serif',
 })
 
-export const fontScript = FontScript({
+const fontScript = FontScript({
   weight: ['400'],
   subsets: ['latin'],
   variable: '--font-script',

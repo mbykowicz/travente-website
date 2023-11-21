@@ -1,4 +1,4 @@
-import { SchemaTypeDefinition } from 'sanity'
+import { SchemaTypeDefinition, defineArrayMember } from 'sanity'
 
 export const about: SchemaTypeDefinition = {
   name: 'about',
@@ -26,6 +26,23 @@ export const about: SchemaTypeDefinition = {
       of: [
         {
           type: 'block',
+        },
+      ],
+    },
+    {
+      name: 'signature',
+      title: 'Signature',
+      type: 'object',
+      fields: [
+        {
+          name: 'name',
+          title: 'Name',
+          type: 'string',
+        },
+        {
+          name: 'description',
+          title: 'Description',
+          type: 'string',
         },
       ],
     },

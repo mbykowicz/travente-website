@@ -1,8 +1,9 @@
-import Hero from '@/components/elements/Hero'
 import Container from '@/components/Container'
+import Section from '@/components/Section'
+import Hero from '@/components/elements/Hero'
+import AboutMe from '@/components/elements/AboutMe'
 import StepList from '@/components/elements/StepList'
 import ContactForm from '@/components/elements/ContactForm'
-import Section from '@/components/Section'
 import { getHeroData, getStepsData } from '@/sanity/queries'
 
 export default async function Home() {
@@ -12,6 +13,7 @@ export default async function Home() {
   return (
     <Container>
       <Hero data={heroData} />
+      <AboutMe />
       <Section title="Jak to działa?">
         <StepList steps={stepsData} />
       </Section>
