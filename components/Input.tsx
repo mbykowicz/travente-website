@@ -1,7 +1,7 @@
 'use client'
 
 import { cva, type VariantProps, cx } from 'class-variance-authority'
-import Label from '@/components/LabelComponent'
+import Label from '@/components/Label'
 import { ChangeEventHandler, HTMLInputTypeAttribute } from 'react'
 
 export type InputVariantProps = VariantProps<typeof inputVariants>

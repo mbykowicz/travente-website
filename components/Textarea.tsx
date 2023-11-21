@@ -1,7 +1,7 @@
 'use client'
 
 import { cva, type VariantProps, cx } from 'class-variance-authority'
-import Label from '@/components/LabelComponent'
+import Label from '@/components/Label'
 
 export type TextareaVariantProps = VariantProps<typeof textareaVariants>
 
