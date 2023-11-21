@@ -11,7 +11,7 @@ async function AboutMe() {
         <div className="relative">
           <Postcard className="lg:absolute top-0 -left-1/2 w-60 my-auto lg:w-96 transform -rotate-3 mx-auto" />
         </div>
-        <div className="font-serif text-storm-dust-600 text-lg md:text-xl leading-relaxed col-span-2 grid gap-3">
+        <div className="font-serif italic text-storm-dust-600 text-lg md:text-xl leading-relaxed col-span-2 grid gap-3">
           <PortableText value={data.content} />
           <Signature
             name={data.signature.name}
