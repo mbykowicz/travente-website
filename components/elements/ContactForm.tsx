@@ -32,7 +32,7 @@ import {
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from '../Select'
+} from '@/components/Select'
 import Link from 'next/link'
 import { InstagramIcon, MailIcon, SmartphoneIcon } from 'lucide-react'
 
