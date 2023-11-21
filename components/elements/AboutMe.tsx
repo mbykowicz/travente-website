@@ -1,7 +1,7 @@
-import Section from '@/components/Section'
-import Signature from '@/components/Signature'
 import { getAboutMeData } from '@/sanity/queries'
 import { PortableText } from '@portabletext/react'
+import Signature from '@/components/Signature'
+import Section from '@/components/Section'
 
 async function AboutMe() {
   const data = await getAboutMeData()
