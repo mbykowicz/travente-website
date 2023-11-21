@@ -2,7 +2,7 @@ import nodemailer from 'nodemailer'
 import type SMTPTransport from 'nodemailer/lib/smtp-transport'
 import { TransportOptions } from 'nodemailer'
 import { render } from '@react-email/render'
-import Email from '@/emails/Email'
+import Email from '@/emails/EmailComponent'
 
 interface Data {
   name: string
