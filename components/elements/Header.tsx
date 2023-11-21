@@ -1,5 +1,5 @@
-import Container from '../Container'
-import Logo from '../Logo'
+import Container from '../ContainerComponent'
+import Logo from '../LogoComponent'
 
 export default function Header() {
   return (

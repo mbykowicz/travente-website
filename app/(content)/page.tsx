@@ -1,5 +1,5 @@
 import Section from '@/components/SectionComponent'
-import Container from '@/components/Container'
+import Container from '@/components/ContainerComponent'
 import Hero from '@/components/elements/Hero'
 import AboutMe from '@/components/elements/AboutMe'
 import StepList from '@/components/elements/StepList'

@@ -4,8 +4,8 @@ import { FormEvent, useRef, useState } from 'react'
 
 import { XMarkIcon } from '@heroicons/react/20/solid'
 
-import Button from '@/components/Button'
-import Input from '@/components/Input'
+import Button from '@/components/ButtonComponent'
+import Input from '@/components/InputComponent'
 import Textarea from '@/components/Textarea'
 import {
   Form,
