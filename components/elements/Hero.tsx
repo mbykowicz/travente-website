@@ -12,7 +12,7 @@ export default function Hero({
         <h1 className="text-5xl font-bold tracking-tight text-brandy-punch-800 sm:text-6xl">
           {data.headline}
         </h1>
-        <p className="mt-6 font-serif text-2xl italic leading-8 text-storm-dust-600">
+        <p className="mt-6 font-serif text-2xl italic leading-8 text-storm-dust-600 whitespace-pre-line">
           {data.description}
         </p>
         <div className="flex items-center justify-center mt-10 gap-x-6">
